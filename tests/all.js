@@ -18,7 +18,7 @@ describe('Test parse iOS User Agent String', function() {
 });
 
 
-describe('Test parse iOS User Agent String', function() {
+describe('Test parse Android User Agent String', function() {
     it('should parse Android user agent string into device and version', function (done) {
         var testAnd = "Mozilla/5.0 (Linux; Android 5.0.1; Nexus 6 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36";
         var actual = metaProfile.getDevice({headers: {"user-agent": testAnd}});
